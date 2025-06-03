@@ -1,1 +1,1 @@
-# praktikum-lichtfolge
+# Praktikum – Lichtfolge
