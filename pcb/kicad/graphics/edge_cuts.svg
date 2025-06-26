@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1123 794" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Edge-Cuts" serif:id="Edge Cuts">
+        <g transform="matrix(0.867177,0,0,0.901366,126.578,106.581)">
+            <path d="M638.551,137.228C638.551,111.941 617.212,91.412 590.929,91.412L163.162,91.412C136.879,91.412 115.54,111.941 115.54,137.228L115.54,351.035C115.54,376.321 136.879,396.85 163.162,396.85L590.929,396.85C617.212,396.85 638.551,376.321 638.551,351.035L638.551,137.228Z" style="fill:none;stroke:black;stroke-width:1.28px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,49.7058,70.8167)">
+            <path d="M391.037,138.949C393.264,138.949 395.319,137.754 396.42,135.818C397.835,133.175 400.63,131.395 403.838,131.395C407.04,131.395 409.831,133.169 411.282,135.787C412.385,137.719 414.439,138.911 416.663,138.911C419.875,138.949 423.68,138.949 423.68,138.949C427.33,138.949 430.294,141.913 430.294,145.564C430.294,149.214 427.33,152.178 423.68,152.178L383.995,152.178C380.345,152.178 377.381,149.214 377.381,145.564C377.381,141.913 380.345,138.949 383.995,138.949L391.037,138.949Z" style="fill:none;stroke:black;stroke-width:1.13px;"/>
+        </g>
+    </g>
+</svg>
