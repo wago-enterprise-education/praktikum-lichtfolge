@@ -8,7 +8,7 @@ Bau einer kleinen Platine als handheld Spielekonsole.
 
 ## Quick Links
 - **Dokumentation:** [wago-enterprise-education.github.io/praktikum-lichtfolge/](https://wago-enterprise-education.github.io/praktikum-lichtfolge/)
-- **Bestückungsplan:** [pages/Bestueckungsplan_praktikum-lichtfolge_v1.0.html](https://wago-enterprise-education.github.io/praktikum-lichtfolge/Bestueckungsplan_praktikum-lichtfolge_v1.0.html)
+- **Bestückungsplan:** [docs/Bestueckungsplan_praktikum-lichtfolge_v1.0.html](https://wago-enterprise-education.github.io/praktikum-lichtfolge/Bestueckungsplan_praktikum-lichtfolge_v1.0.html)
 - **Schaltplan:** [pcb/schematics_praktikum-lichtfolge.pdf](pcb/schematics_praktikum-lichtfolge.pdf)
 - **Materialliste:** [bom/ibom_praktikum-lichtfolge_v1.0.html](https://wago-enterprise-education.github.io/praktikum-lichtfolge/bom/ibom_praktikum-lichtfolge_v1.0.html)
 
