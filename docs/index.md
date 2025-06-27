@@ -1,6 +1,6 @@
  ---
  layout: post
- title: Praktikum - Lichtfolge
+ title: Praktikum – Lichtfolge
  lang: de
  ---
 
