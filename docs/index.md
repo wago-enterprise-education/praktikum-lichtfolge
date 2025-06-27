@@ -1,6 +1,6 @@
  ---
  layout: post
- title: "Praktikum – Lichtfolge"
+ title: Praktikum - Lichtfolge
  lang: de
  ---
 
@@ -64,7 +64,7 @@ Für eine schnelle und unkomplizierte Programmierung wurde im WAGO Ausbildungsbe
 Das UI (User Interface, deutsch Benutzeroberfläche) der Platine besteht aus 4 LEDs und 4 Tastern über die das Menü und die Spiele umgesetzt wurden. Im Folgenden wird kurz auf die verschiedenen Funktionen eingegangen.
 
 ### Spiel auswählen
-Über **Taster 1 („Spiel“)** kann ein Spiel ausgewählt werden. Bei [Spiel 1](#spiel-1--lichtfolge) muss sich eine immer länger werdende Lichtfolge gemerkt werden, [Spiel 2](#spiel-2--reaktionstest) ist ein Reaktionsspiel, bei dem man möglichst schnell die LEDs „wegklicken“ muss, bei [Spiel 3](#spiel-3--würfeln) handelt es sich um einen digitalen Würfel und [Spiel Nummer 4](#programmcode-für-spiel-4) ist frei. Hier kannst du mithilfe des [Programming Guides](#programming-guide) dein eigenes Spiel entwickeln. Selbstverständlich steht es dir aber frei alle Spiele anzupassen oder ganz auszutauschen.
+Über **Taster 1 („Spiel“)** kann ein Spiel ausgewählt werden. Bei [Spiel 1](#spiele) muss sich eine immer länger werdende Lichtfolge gemerkt werden, [Spiel 2](#spiele) ist ein Reaktionsspiel, bei dem man möglichst schnell die LEDs „wegklicken“ muss, bei [Spiel 3](#spiele) handelt es sich um einen digitalen Würfel und [Spiel Nummer 4](#programmcode-für-spiel-4) ist frei. Hier kannst du mithilfe des [Programming Guides](#programming-guide) dein eigenes Spiel entwickeln. Selbstverständlich steht es dir aber frei alle Spiele anzupassen oder ganz auszutauschen.
 
 ### Spiel starten
 Über **Taster 4 („Start“)** kann das aktuell ausgewählte Spiel gestartet werden.
@@ -77,14 +77,14 @@ Um den Highscore eines Spiels zurückzusetzen, halte **Taster 2 („Reset“)** 
 
 ### Spiele
 
-In den folgenden Unterkapiteln werden die verfügbaren Spiele kurz erläutert.
+In der folgenden Tabelle werden die verfügbaren Spiele kurz erläutert.
 
 |#| Spiel | Beschreibung |
 |-|-------|--------------|
-|1|Lichtfolge |Nach einer kurzen Animation, um den Start des Spiels zu signalisieren, leuchtet eine zufällige LED auf. Merke dir diese und drücke den zugehörigen Taster. Anschließend leuchtet die gleiche LED erneut auf, gefolgt von einer weiteren zufälligen LED (es kann auch die gleiche noch mal sein). Daraufhin drückst du wieder nacheinander die entsprechenden Taster. Die Folge wird so immer länger, bis du dir die Reihenfolge nicht mehr merken kannst und einen Fehler machst. Dann blinken alle LEDs kurz viermal auf und dir wird deine erreichte Punktzahl angezeigt (siehe Unterkapitel [Highscore anzeigen](#highscore-anzeigen)). Die Punktzahl entspricht hierbei der Länge der Lichtfolge. Wieviel kannst du dir merken?|
-|2|Reaktionstest |Zu Beginn des Spiels leuchtet eine zufällige LED auf. Klicke schnellstmöglich auf den entsprechenden Taster, um sie auszuschalten. Anschließend leuchtet eine beliebige andere LED auf. Du hast 30 Sekunden Zeit, um so möglichst viele LED „wegzuklicken“. Jede LED gibt hierbei einen Punkt. Drückst du jedoch versehentlich auf einen falschen Taster, wird dir ein Punkt abgezogen. Das Minimum sind jedoch 0 Punkte. Wie gut sind deine Reaktionen?|
-|3|Würfeln |Nach einer kurzen Zufallsanimation leuchten alle vier LEDs ein paar Mal auf. Dies entspricht der gewürfelten Zahl zwischen 1 und 6. Im Code kannst du den Zahlenbereich aber auch anpassen oder die Art der Darstellung ändern, sodass die Zahlen wie bei den Highscores angezeigt werden. So könnten auch zufällige Zahlen von 0 bis 9999 angezeigt werden.|
-|4|Frei |Hier kannst du dein eigenes Spiel programmieren. Informationen dazu findest du im [Programming Guide](#programming-guide).|
+|**1**|**Lichtfolge**|Nach einer kurzen Animation, um den Start des Spiels zu signalisieren, leuchtet eine zufällige LED auf. Merke dir diese und drücke den zugehörigen Taster. Anschließend leuchtet die gleiche LED erneut auf, gefolgt von einer weiteren zufälligen LED (es kann auch die gleiche noch mal sein). Daraufhin drückst du wieder nacheinander die entsprechenden Taster. Die Folge wird so immer länger, bis du dir die Reihenfolge nicht mehr merken kannst und einen Fehler machst. Dann blinken alle LEDs kurz viermal auf und dir wird deine erreichte Punktzahl angezeigt (siehe Unterkapitel [Highscore anzeigen](#highscore-anzeigen)). Die Punktzahl entspricht hierbei der Länge der Lichtfolge. Wieviel kannst du dir merken?|
+|**2**|**Reaktionstest**|Zu Beginn des Spiels leuchtet eine zufällige LED auf. Klicke schnellstmöglich auf den entsprechenden Taster, um sie auszuschalten. Anschließend leuchtet eine beliebige andere LED auf. Du hast 30 Sekunden Zeit, um so möglichst viele LED „wegzuklicken“. Jede LED gibt hierbei einen Punkt. Drückst du jedoch versehentlich auf einen falschen Taster, wird dir ein Punkt abgezogen. Das Minimum sind jedoch 0 Punkte. Wie gut sind deine Reaktionen?|
+|**3**|**Würfeln**|Nach einer kurzen Zufallsanimation leuchten alle vier LEDs ein paar Mal auf. Dies entspricht der gewürfelten Zahl zwischen 1 und 6. Im Code kannst du den Zahlenbereich aber auch anpassen oder die Art der Darstellung ändern, sodass die Zahlen wie bei den Highscores angezeigt werden. So könnten auch zufällige Zahlen von 0 bis 9999 angezeigt werden.|
+|**4**|**Frei**|Hier kannst du dein eigenes Spiel programmieren. Informationen dazu findest du im [Programming Guide](#programming-guide).|
 
 ## Programming Guide
 In diesem Kapitel gibt es eine kurze Einführung dazu, wie du **selbst Spiele für die Platine programmieren** kannst. Grundlagen für das Programmieren in C++ (Arduino) werden dabei vorausgesetzt. Bei YouTube gibt es ansonsten viele einsteigerfreundliche Tutorials dazu, suche einfach nach *Arduino Tutorial* und schon nach kurzer Zeit solltest du in der Lage sein die LEDs nach deinen Vorgaben anzusteuern.
