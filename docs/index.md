@@ -1,8 +1,8 @@
- ---
- layout: post
- title: Praktikum – Lichtfolge
- lang: de
- ---
+---
+layout: post
+title: Praktikum – Lichtfolge
+lang: de
+---
 
 # Praktikum – Lichtfolge
 
